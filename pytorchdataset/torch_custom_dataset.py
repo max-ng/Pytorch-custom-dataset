@@ -65,11 +65,11 @@ class CustomDataset(Dataset):
             self.labels = self.labels[last:]
             self.route = self.route[last:]
             print('Total test examples:',len(self.labels))
-        if self.mode == 'text':
-            tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-            self.route = [tokenizer(text, 
-                            padding='max_length', max_length=512, truncation=True,
-                            return_tensors="pt") for text in self.route]
+        # if self.mode == 'text':
+        #     tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+        #     self.route = [tokenizer(text, 
+        #                     padding='max_length', max_length=512, truncation=True,
+        #                     return_tensors="pt") for text in self.route]
 
 
     def __len__(self):
