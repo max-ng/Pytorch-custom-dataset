@@ -106,7 +106,7 @@ To use it with other path:
 
  maxnghello at gmail.com
 
-Follow me on Medium: [@medium](https://twitter.com/your_username)
+Follow me on Medium: [@medium](https://medium.com/@data.scientist)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
