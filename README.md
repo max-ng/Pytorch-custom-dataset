@@ -15,7 +15,7 @@
   <p align="center">
     Create pytorch custom dataset in seconds.
     <br />
-    <a href="https://github.com/"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/max-ng/Pytorch-custom-dataset/blob/main/README.md"><strong>Explore the docs »</strong></a>
     <br />
 </div>
 
@@ -24,7 +24,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![image](images/graphic.png)
 
 Minimize the time and learning curve to create a PyTorch custom dataset. Start with classification. Currently, the code supports .jpg .png .pdf .txt. Let's get started!
 
@@ -40,7 +40,8 @@ Create a Pytorch dataset for Classification:
 
 1. Group the image/text files in a folder "custom_dataset" under the root folder. 
 
-2.   ```sh
+2. import:
+  ```sh
   from pytorchdataset import CustomDataset
   ```
 
@@ -90,7 +91,7 @@ To use it with other path:
 ## Roadmap
 
 - [x] Image, text classification
-- [x] Unlabeled dataset (for unsupervised learning)
+- [ ] Unlabeled dataset (for unsupervised learning)
 - [ ] 
 - [ ] 
 
@@ -103,10 +104,16 @@ To use it with other path:
 <!-- CONTACT -->
 ## Contact
 
- maxnghello@gmail.com
+ maxnghello at gmail.com
 
 Follow me on Medium: [@medium](https://twitter.com/your_username)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- MORE -->
+## More
+
+More examples can be found [here](https://app.xxample.org/l/pytorch-pretrained). 
 
 
